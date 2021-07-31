@@ -1,8 +1,7 @@
-const path = require('path');
-const url = 'http://localhost:8090';
+const url = 'http://localhost';
+// const url = 'http://localhost:8080';
 
 module.exports = {
-	// outputDir: path.resolve(__dirname, "../" + "main/resources/static"),
 	devServer: {
 		proxy: {
 			'/api':{

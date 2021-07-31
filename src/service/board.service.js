@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'localhost/api/board';
+const API_URL = 'http://localhost/api/board';
+// const API_URL = 'http://localhost:8080/api/board';
 
 class BoardService {
   
