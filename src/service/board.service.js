@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost/api/board';
+const API_URL = 'http://inseek.duckdns.org/api/board';
 // const API_URL = 'http://localhost:8080/api/board';
 
 class BoardService {
